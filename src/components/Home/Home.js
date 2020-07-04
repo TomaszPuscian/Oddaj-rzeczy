@@ -1,24 +1,26 @@
 import React from "react";
-import {HomeHeader} from "./HomeHeader";
+import {HomeHeader} from "./HomeHeader/HomeHeader";
 import {HomeThreeColumns} from "./HomeThreeColumns";
 import {HomeFourSteps} from "./HomeFourSteps";
 import {HomeFormButton} from "./HomeFormButton";
 import {HomeAboutUs} from "./HomeAboutUs";
 import {HomeWhomWeHelpList} from "./HomeWhomWeHelpList";
-import {HomeContactForm} from "./HomeContactForm";
+import {ContactForm} from "../ContactForm";
 import {HomeFooter} from "./HomeFooter";
 
 const Home = () => {
-    return <>
+    return (
+    <>
         <HomeHeader />
         <HomeThreeColumns />
         <HomeFourSteps />
         <HomeFormButton />
         <HomeAboutUs />
         <HomeWhomWeHelpList />
-        <HomeContactForm />
+        <ContactForm />
         <HomeFooter />
     </>
+    )
 }
 
 export {Home}

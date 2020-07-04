@@ -1,9 +1,9 @@
 import React from "react";
 
-const HomeContactForm = () => {
+const ContactForm = () => {
     return <>
         <div style={{height: 400}}>HomeContactForm</div>
     </>
 }
 
-export {HomeContactForm}
+export {ContactForm}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './scss/main.scss';
 import {HashRouter, Route, Link, Switch, NavLink} from 'react-router-dom';
-import {Home} from "./components/Home";
+import Home from "./components/Home";
 
 
 function App() {
