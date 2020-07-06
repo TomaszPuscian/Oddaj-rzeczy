@@ -1,9 +1,13 @@
+//gdzie to?
 .link {
   text-decoration: none;
 }
+body {
+  font-family: $font_base;
+}
+
 .header--container {
   display: flex;
-  font-family: $font_base;
 }
 
 .header--img {

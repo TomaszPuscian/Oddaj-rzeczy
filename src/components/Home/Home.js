@@ -1,6 +1,6 @@
 import React from "react";
 import {HomeHeader} from "./HomeHeader/HomeHeader";
-import {HomeThreeColumns} from "./HomeThreeColumns";
+import {HomeThreeColumns} from "./HomeThreeColumns/HomeThreeColumns";
 import {HomeFourSteps} from "./HomeFourSteps";
 import {HomeFormButton} from "./HomeFormButton";
 import {HomeAboutUs} from "./HomeAboutUs";

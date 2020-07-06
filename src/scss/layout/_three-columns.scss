@@ -1,0 +1,35 @@
+.columns {
+  &--container {
+    background: url("../../assets/3 Columns Background.png");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  &--item--container {
+    max-width: 400px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $brown;
+    text-align: center;
+  }
+  &--item--number {
+    font-size: 90px;
+    padding: 20px 0;
+    font-weight: lighter;
+  }
+  &--item--header {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+  &--item--content {
+    font-family: $font_alt;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 25px 0;
+  }
+}
+
+
