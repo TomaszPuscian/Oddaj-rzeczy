@@ -1,7 +1,7 @@
 import React from "react";
 
-const LogInButton = () => {
-    return <button>Zaloguj</button>
+const LogInButton = ({text}) => {
+    return <button className="authBarButton">{text}</button>
 }
 
 export {LogInButton}

@@ -1,0 +1,85 @@
+.link {
+  text-decoration: none;
+}
+.header--container {
+  display: flex;
+  font-family: $font_base;
+}
+
+.header--img {
+  width: 50%;
+  height: 80%;
+}
+
+.userAuthBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.authBarButton {
+  height: calc(100% - 1px);
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: $darkGrey;
+  font-size: 13px;
+  &:hover {
+    border: 1px solid $yellow;
+  }
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navListElement {
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: $darkGrey;
+  &:hover {
+    border: 1px solid $darkGrey;
+  }
+}
+
+.TextSectionHeader {
+  text-align: center;
+  padding: 10px;
+  margin: 25px 0;
+  & p {
+    font-size: 34px;
+    color: $darkGrey;
+  }
+}
+
+.TextSectionHeader--decoration--line {
+  padding: 25px 0;
+}
+
+.header--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header--two--buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SquareButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 10px 0 0;
+  border: 1px solid $darkGrey;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  color: $darkGrey
+}

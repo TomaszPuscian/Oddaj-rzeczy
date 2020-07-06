@@ -2,25 +2,25 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
-            <ul>
-                <li>
+        <nav>
+            <ul className="navList">
+                <li className="navListElement">
                     Start
                 </li>
-                <li>
+                <li className="navListElement">
                     O co chodzi?
                 </li>
-                <li>
+                <li className="navListElement">
                     O nas
                 </li>
-                <li>
+                <li className="navListElement">
                     Fundacje i organizacje
                 </li>
-                <li>
+                <li className="navListElement">
                     Kontakt
                 </li>
             </ul>
-        </div>
+        </nav>
     )
 }
 

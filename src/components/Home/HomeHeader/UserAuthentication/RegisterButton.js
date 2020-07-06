@@ -1,7 +1,7 @@
 import React from "react";
 
-const RegisterButton = () => {
-    return <button>Załóż konto</button>
+const RegisterButton = ({text}) => {
+    return <button className="authBarButton">{text}</button>
 }
 
 export {RegisterButton}
