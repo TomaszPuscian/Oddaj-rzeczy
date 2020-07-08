@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className="header--content">
             <TextSectionHeader
-                text1="Zacznij pomagać!"
+                text="Zacznij pomagać!"
                 text2="Oddaj niechciane rzeczy w zaufane ręce"
             />
 

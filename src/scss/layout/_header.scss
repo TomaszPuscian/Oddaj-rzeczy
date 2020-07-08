@@ -1,11 +1,3 @@
-//gdzie to?
-.link {
-  text-decoration: none;
-}
-body {
-  font-family: $font_base;
-}
-
 .header--container {
   display: flex;
 }
@@ -13,6 +5,12 @@ body {
 .header--img {
   width: 50%;
   height: 80%;
+}
+
+.header--content--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .userAuthBar {
@@ -52,7 +50,6 @@ body {
 .TextSectionHeader {
   text-align: center;
   padding: 10px;
-  margin: 25px 0;
   & p {
     font-size: 34px;
     color: $darkGrey;

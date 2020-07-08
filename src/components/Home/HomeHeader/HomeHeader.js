@@ -9,7 +9,7 @@ const HomeHeader = () => {
     return (
     <div className="header--container">
         <img src={homeImage} alt="few things you could give away like game controller or some keyboard" className="header--img" />
-        <div>
+        <div className="header--content--container">
             <UserAuthenticationBar />
             <Navbar />
             <Header />

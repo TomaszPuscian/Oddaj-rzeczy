@@ -1,7 +1,12 @@
 @import "reset.css";
-@import "settings/fonts.scss";
-@import "settings/tags.scss";
-@import "settings/colors.scss";
+@import "settings/fonts";
+@import "settings/tags";
+@import "settings/colors";
+@import "settings/mixins";
 
 @import "layout/header";
 @import "layout/three-columns";
+@import "layout/four-steps";
+
+
+//zmień klasę .link na po prostu tag Link
