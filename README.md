@@ -1,4 +1,4 @@
-## ODDAM W DOBRE RĘCE
+## ODDAJ RZECZY
 
 Landing page with basic form created to set an opportunity for users to give away
 things they no longer need for others
