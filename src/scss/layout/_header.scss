@@ -1,0 +1,61 @@
+.header--container {
+  display: flex;
+}
+
+.header--img {
+  width: 50%;
+  height: 80%;
+}
+
+.header--content--container {
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-between;
+}
+
+.userAuthBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.authBarButton {
+  height: calc(100% - 1px);
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: $darkGrey;
+  font-size: 13px;
+  &:hover {
+    border: 1px solid $yellow;
+  }
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navListElement {
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: $darkGrey;
+  &:hover {
+    border: 1px solid $darkGrey;
+  }
+}
+
+.header--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 6;
+}
+
+.header--two--buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

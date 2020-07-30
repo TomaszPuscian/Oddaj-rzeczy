@@ -1,0 +1,12 @@
+.SquareButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 10px 0 0;
+  border: 1px solid $darkGrey;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  color: $darkGrey
+}

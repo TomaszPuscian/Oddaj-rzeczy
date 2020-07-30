@@ -1,6 +1,9 @@
 @import "fonts.scss";
 
-
 body {
   font-family: $font_base;
+}
+
+.link {
+  text-decoration: none;
 }
