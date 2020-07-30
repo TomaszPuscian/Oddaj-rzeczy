@@ -2,7 +2,6 @@ import React from "react";
 import HomeHeader from "./HomeHeader";
 import HomeThreeColumns from "./HomeThreeColumns";
 import HomeFourSteps from "./HomeFourSteps";
-import {HomeFormButton} from "./HomeFormButton";
 import {HomeAboutUs} from "./HomeAboutUs";
 import {HomeWhomWeHelpList} from "./HomeWhomWeHelpList";
 import {ContactForm} from "../ContactForm";
@@ -14,7 +13,6 @@ const Home = () => {
         <HomeHeader />
         <HomeThreeColumns />
         <HomeFourSteps />
-        <HomeFormButton />
         <HomeAboutUs />
         <HomeWhomWeHelpList />
         <ContactForm />
