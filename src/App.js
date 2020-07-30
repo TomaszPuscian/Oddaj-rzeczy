@@ -8,6 +8,7 @@ import {ContactForm} from "./components/ContactForm";
 import SignInPage from "./components/UserAuthentication/SignInPage";
 import SignUpPage from "./components/UserAuthentication/SignUpPage";
 import PasswordForgetPage from "./components/UserAuthentication/PasswordForget";
+import {Form} from "./components/Form/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path={ROUTES.SIGN_IN} component={SignInPage} />
           <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
           <Route path={ROUTES.PASSWORD_FORGET} component={PasswordForgetPage} />
+          <Route path={ROUTES.FORM} component={Form} />
       </HashRouter>
   )
 }

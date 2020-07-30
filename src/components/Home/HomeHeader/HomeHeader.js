@@ -1,5 +1,5 @@
 import React from "react";
-import UserAuthenticationBar from "./UserAuthentication"
+import UserAuthenticationBar from "./UserAuthenticationBar"
 import Navbar from "./Navigation"
 import Header from "./Header";
 
@@ -10,8 +10,10 @@ const HomeHeader = () => {
     <div className="header--container">
         <img src={homeImage} alt="few things you could give away like game controller or some keyboard" className="header--img" />
         <div className="header--content--container">
+            <div>
             <UserAuthenticationBar />
             <Navbar />
+            </div>
             <Header />
         </div>
     </div>

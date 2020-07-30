@@ -2,8 +2,6 @@ import React, {useContext, useState} from 'react';
 import { useHistory } from 'react-router-dom';
 import { Link, withRouter } from 'react-router-dom';
 import * as ROUTES from '../../../constants/routes';
-
-
 import {FirebaseContext} from "../Firebase"
 
 const SignUpPage = () => (
@@ -33,7 +31,7 @@ const SignUpForm = () => {
             .doCreateUserWithEmailAndPassword(email, passwordOne)
             .then(() => {
                 setState({...INITIAL_STATE});
-                history.push(ROUTES.HOME);
+                history.push(ROUTES.LANDING);
             })
             .catch(error => {
                 setState(prev => ({...prev, error }));

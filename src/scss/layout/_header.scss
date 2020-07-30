@@ -10,7 +10,7 @@
 .header--content--container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  //justify-content: space-between;
 }
 
 .userAuthBar {
@@ -47,40 +47,15 @@
   }
 }
 
-.TextSectionHeader {
-  text-align: center;
-  padding: 10px;
-  & p {
-    font-size: 34px;
-    color: $darkGrey;
-  }
-}
-
-.TextSectionHeader--decoration--line {
-  padding: 25px 0;
-}
-
 .header--content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-grow: 6;
 }
 
 .header--two--buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.SquareButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 0 10px 0 0;
-  border: 1px solid $darkGrey;
-  font-weight: lighter;
-  text-align: center;
-  text-decoration: none;
-  color: $darkGrey
 }

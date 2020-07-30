@@ -1,6 +1,6 @@
 import React, {useContext, useState} from "react";
 import {FirebaseContext} from "../Firebase";
-import {Link, useHistory} from "react-router-dom";
+import {Link} from "react-router-dom";
 import * as ROUTES from "../../../constants/routes"
 
 const PasswordForgetPage = () => {
@@ -20,7 +20,6 @@ const INITIAL_STATE = {
 const PasswordForgetForm = () => {
     const [state, setState] = useState({...INITIAL_STATE})
     const firebase = useContext(FirebaseContext)
-    const history = useHistory();
 
     const onSubmit = () => {
         const {email} = state;

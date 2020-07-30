@@ -25,6 +25,7 @@ const SignInForm = () => {
     const [state, setState] = useState({...INITIAL_STATE})
     const firebase = useContext(FirebaseContext)
     const history = useHistory();
+
     const onSubmit = event => {
         const { email, password } = state;
 
@@ -32,7 +33,7 @@ const SignInForm = () => {
             .doSignInWithEmailAndPassword(email, password)
             .then(() => {
                 setState({ ...INITIAL_STATE });
-                history.push(ROUTES.HOME);
+                history.push(ROUTES.LANDING);
             })
             .catch(error => {
                 setState(prev => ({...prev, error }));

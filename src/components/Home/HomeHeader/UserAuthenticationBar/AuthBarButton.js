@@ -1,7 +1,7 @@
 import React from "react";
 
-const LogInButton = ({text}) => {
+const AuthBarButton = ({text}) => {
     return <button className="authBarButton">{text}</button>
 }
 
-export {LogInButton}
+export {AuthBarButton}

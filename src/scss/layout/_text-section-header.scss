@@ -1,0 +1,12 @@
+.TextSectionHeader {
+  text-align: center;
+  padding: 10px;
+  & p {
+    font-size: 34px;
+    color: $darkGrey;
+  }
+}
+
+.TextSectionHeader--decoration--line {
+  padding: 25px 0;
+}
