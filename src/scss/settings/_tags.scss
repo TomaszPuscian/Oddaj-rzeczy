@@ -1,5 +1,9 @@
 @import "fonts.scss";
 
+* {
+  box-sizing: content-box;
+}
+
 body {
   font-family: $font_base;
 }

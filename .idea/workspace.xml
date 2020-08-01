@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8354a362-28e4-4f6f-9e8e-34cf81e87699" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Home/HomeAboutUs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/layout/_about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/People.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/People.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeFormButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeAboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeAboutUs/HomeAboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_text-section-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_text-section-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/settings/_tags.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_tags.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +58,11 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Home/HomeAboutUs" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
